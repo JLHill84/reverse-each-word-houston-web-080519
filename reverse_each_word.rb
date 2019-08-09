@@ -3,7 +3,7 @@ def reverse_each_word(args)
   # puts arry[0].reverse
   newStr = ""
   arry.each do |word|
-    newStr + newArry.push(word.reverse)
+    newStr + word.reverse)
   end
   return newStr
 end
