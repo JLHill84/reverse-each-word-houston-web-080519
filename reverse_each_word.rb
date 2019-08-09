@@ -4,7 +4,7 @@ def reverse_each_word(args)
   arry.each do |word|
     newStr << word.reverse + " "
   end
-  return newStr.chomp
+  return newStr.chop
 end
 
 # reverse_each_word("Hello there, and how are you?")
