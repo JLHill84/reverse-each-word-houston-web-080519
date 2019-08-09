@@ -5,7 +5,7 @@ def reverse_each_word(args)
   arry.each do |word|
     newArry.push(word.reverse)
   end
-  puts newArry
+  return newArry
 end
 
 reverse_each_word("Hello there, and how are you?")
