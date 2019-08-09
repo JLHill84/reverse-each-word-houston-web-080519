@@ -1,7 +1,7 @@
 def reverse_each_word(args)
   arry = args.split(" ")
-  arry.each do |index|
-    puts arry[index]
+  arry.each do
+    puts arry
   end
   # puts arry
 end
