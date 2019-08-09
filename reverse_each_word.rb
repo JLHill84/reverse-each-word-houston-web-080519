@@ -1,11 +1,11 @@
 def reverse_each_word(args)
   arry = args.split(" ")
   # puts arry[0].reverse
-  newArry = []
+  newStr = ""
   arry.each do |word|
-    newArry.push(word.reverse)
+    newStr + newArry.push(word.reverse)
   end
-  return newArry.split()
+  return newStr
 end
 
 reverse_each_word("Hello there, and how are you?")
