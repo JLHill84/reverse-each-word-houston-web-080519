@@ -3,7 +3,7 @@ def reverse_each_word(args)
   # puts arry[0].reverse
   newArry = []
   arry.each do |index|
-    newArry.push = arry[index].reverse
+    newArry.push(arry[index].reverse)
   end
   puts newArry
 end
