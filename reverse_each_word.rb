@@ -4,3 +4,5 @@ def reverse_each_word(args)
     puts args
   end
 end
+
+reverse_each_word("Hello there, and how are you?")
